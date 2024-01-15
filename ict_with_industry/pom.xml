@@ -1,0 +1,76 @@
+<!-- ADD MAVEN PLUGIN(?) -->
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.axini.adapters</groupId>
+  <artifactId>adapter-labrecruits</artifactId>
+  <version>0.0.1</version>
+  <name>adapterlabrecruits</name>
+  <description>Adapter for the game LabRecruits.</description>
+
+<!-- ADD MAVEN PLUGIN(?) -->
+  <properties>
+    <maven.compiler.source>17</maven.compiler.source>
+    <maven.compiler.target>17</maven.compiler.target>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+  
+  <repositories>
+    <repository>
+      <id>jitpack.io</id>
+      <url>https://jitpack.io</url>
+    </repository>
+  </repositories>
+  
+  <dependencies>
+  
+  	<!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-api -->
+    <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-api</artifactId>
+      <version>1.7.36</version>
+    </dependency>
+
+    <!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-simple -->
+    <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-simple</artifactId>
+      <version>1.7.36</version>
+    </dependency>
+    
+    <!-- https://mvnrepository.com/artifact/org.java-websocket/Java-WebSocket -->
+    <dependency>
+      <groupId>org.java-websocket</groupId>
+      <artifactId>Java-WebSocket</artifactId>
+      <version>1.5.3</version>
+    </dependency>
+    
+    <!-- https://mvnrepository.com/artifact/com.google.protobuf/protobuf-java -->
+    <dependency>
+      <groupId>com.google.protobuf</groupId>
+      <artifactId>protobuf-java</artifactId>
+      <version>3.21.11</version>
+    </dependency>
+    
+    <!-- https://mvnrepository.com/artifact/com.google.protobuf/protobuf-java -->
+    <dependency>
+        <groupId>com.google.protobuf</groupId>
+        <artifactId>protobuf-java-util</artifactId>
+        <version>3.21.11</version>
+    </dependency>
+    
+    <!--
+    <dependency>
+      <groupId>com.github.iv4xr-project</groupId>
+      <artifactId>iv4xrDemo</artifactId>
+      <version>2.4.4</version>
+    </dependency>
+    -->
+    
+	<!-- ADDED LATEST VERSION TO SEE IF ANYTHIN CHANGED -->
+    <dependency>
+      <groupId>com.github.iv4xr-project</groupId>
+      <artifactId>iv4xrDemo</artifactId>
+      <version>2.5.3</version>
+    </dependency>
+  </dependencies>
+</project>

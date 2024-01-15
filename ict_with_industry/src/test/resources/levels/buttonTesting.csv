@@ -1,0 +1,12 @@
+﻿button1,door1
+|w,w,w,w,w,w,w
+w,f:a^agent1,f,f,f,f:b^button1,w
+w,f,f,f,f,f,w
+w,f,f,f,f,f,w
+w,f,f,f,f,f,w
+w,f:d>n^door1,w,w,w,w,w
+w,f,f,f,f,f,w
+w,f,f,f,f,f,w
+w,f,f,f,f:b^button2,f:b^button3,w
+w,f,f,f,f:b^button4,f:b^button5,w
+w,w,w,w,w,w,w
